@@ -1,0 +1,26 @@
+.form-container {
+  background-color: #000; /* black background */
+  color: #FFD700; /* yellow text */
+}
+
+.text-yellow {
+  color: #FFD700 !important;
+}
+
+.form-input {
+  background-color: #111; /* dark input background */
+  border: 1px solid #FFD700; /* yellow border */
+  color: #FFD700; /* yellow text */
+}
+
+.form-input:focus {
+  background-color: #111;
+  color: #FFD700;
+  border-color: #FFD700;
+  box-shadow: 0 0 5px #FFD700;
+}
+
+button:hover {
+  background-color: #FFD700;
+  color: #000;
+}
